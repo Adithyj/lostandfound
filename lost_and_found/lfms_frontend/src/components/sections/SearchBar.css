@@ -1,0 +1,64 @@
+.search-bar {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-inputs {
+    display: flex;
+    flex-direction: column;  /* Ensures input fields and button stack vertically */
+    align-items: center;     /* Centers the input fields and button horizontally */
+}
+
+.search-inputs input {
+    margin: 5px 0;           /* Adds vertical margin between inputs */
+    padding: 10px;
+    width: 100%;             /* Ensures the input takes the full width available */
+    max-width: 300px;        /* Maximum width for the input */
+    box-sizing: border-box;
+}
+
+.search-inputs button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;             /* Makes the button the same width as the input */
+    max-width: 300px;        /* Maximum width for the button */
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.results-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.result-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.result-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.result-item div {
+    margin: 5px 0;
+}
+
+.result-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

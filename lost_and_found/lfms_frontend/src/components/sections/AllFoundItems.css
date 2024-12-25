@@ -1,0 +1,28 @@
+.found-items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 20px 0;
+}
+
+.found-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.found-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.found-item p {
+    margin: 0.5rem 0;
+}
+
+.found-item strong {
+    font-weight: bold;
+}
